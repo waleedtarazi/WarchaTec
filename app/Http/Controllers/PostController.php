@@ -13,9 +13,12 @@ class PostController extends Controller
 
 //        to get all posts
 //        $posts = Post::withTrashed()->get();
-
-
         return view('posts.index',compact('posts'));
 
     }
 }
+
+
+
+
+
