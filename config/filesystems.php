@@ -56,6 +56,10 @@ return [
             'throw' => false,
         ],
 
+        'new_folder' => [
+
+        ]
+
     ],
 
     /*
@@ -72,5 +76,6 @@ return [
     'links' => [
         public_path('storage') => storage_path('app/public'),
     ],
+
 
 ];
